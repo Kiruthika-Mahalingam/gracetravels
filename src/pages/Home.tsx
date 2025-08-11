@@ -9,6 +9,8 @@ import ootyLake from '../assets/ooty-lake.jpg';
 import toyTrain from '../assets/toy-train.jpg';
 import doddabettaPeak from '../assets/doddabetta-peak.jpg';
 import waxMuseum from '../assets/wax-museum.jpg';
+import { backgroundBlurriness } from 'three/tsl';
+import { color } from 'framer-motion';
 
 const Home = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
@@ -276,55 +278,51 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="footer">
-        <div className="container">
-          <div className="footer-content">
-            <div className="footer-section">
-              <h3 className="footer-logo">Grace Travelers</h3>
-              <p className="footer-description">
-                Discover Ooty Like Never Before. Your trusted partner for unforgettable hill station experiences.
-              </p>
-              <div className="footer-badge">
-                🏆 Premium Tours
-              </div>
-            </div>
-            
-            <div className="footer-section">
-              <h4 className="footer-title">Quick Links</h4>
-              <div className="footer-links">
-                <a href="#about" className="footer-link">About Us</a>
-                <a href="#gallery" className="footer-link">Gallery</a>
-                <a href="#testimonials" className="footer-link">Testimonials</a>
-                <a href="#contact" className="footer-link">Contact</a>
-              </div>
-            </div>
-            
-            <div className="footer-section">
-              <h4 className="footer-title">Contact Info</h4>
-              <div className="footer-contact">
-                <div className="contact-item">
-                  <span className="contact-icon">📧</span>
-                  <span className="contact-text">info@gracetravelers.com</span>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📞</span>
-                  <span className="contact-text">+91 98765 43210</span>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📍</span>
-                  <span className="contact-text">Ooty, Tamil Nadu</span>
-                </div>
-              </div>
-            </div>
+<footer className="footer">
+  <div className="container">
+    <div className="footer-content">
+      <div className="footer-section">
+        <h3 className="footer-logo">Grace Travelers</h3>
+        <p className="footer-description">
+          Discover Ooty Like Never Before. Your trusted partner for unforgettable hill station experiences.
+        </p>
+        <div className="footer-badge">
+          🏆 Premium Tours
+        </div>
+      </div>
+      
+      <div className="footer-section">
+        <h4 className="footer-title">Quick Links</h4>
+        <div className="footer-links">
+          <a href="#about" className="footer-link">About Us</a>
+          <a href="#gallery" className="footer-link">Gallery</a>
+          <a href="#testimonials" className="footer-link">Testimonials</a>
+          <a href="#contact" className="footer-link">Contact</a>
+        </div>
+      </div>
+      
+      <div className="footer-section">
+        <h4 className="footer-title">Contact Info</h4>
+        <div className="footer-contact">
+          <div className="contact-item">
+            <span className="contact-icon contact-circle"><i className="fas fa-envelope"></i></span>
+            <span className="contact-text">info@grace.com</span>
           </div>
-          
-          <div className="footer-bottom">
-            <p>
-              &copy; {new Date().getFullYear()} Grace Travelers. All rights reserved. | Crafted with ❤️ for travelers
-            </p>
+          <div className="contact-item">
+            <span className="contact-icon contact-circle"><i className="fas fa-phone-alt"></i></span>
+            <span className="contact-text">+91 98765 43210</span>
+          </div>
+          <div className="contact-item">
+            <span className="contact-icon contact-circle"><i className="fas fa-map-marker-alt"></i></span>
+            <span className="contact-text">Ooty, Tamil Nadu</span>
           </div>
         </div>
-      </footer>
+      </div>
+    </div>
+    
+    
+  </div>
+</footer>
     </div>
   );
 };

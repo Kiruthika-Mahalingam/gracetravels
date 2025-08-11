@@ -488,12 +488,12 @@ body {
 
 /* Footer */
 .footer {
-  background: #333;
-  color: white;
+  background: white;
+  color: black;
   padding: 64px 0 0;
 }
 
-.footer-content {
+/* .footer-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 32px;
@@ -577,7 +577,7 @@ body {
   padding: 32px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* Animations */
 @keyframes fadeInUp {
@@ -674,4 +674,193 @@ body {
   .gallery-grid {
     grid-template-columns: 1fr;
   }
+}
+/* 
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff; 
+}
+
+.contact-icon i {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+  color: #00aced; 
+}
+
+
+.contact-icon.contact-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+
+
+.footer {
+  background: white;
+  color: black;
+  padding: 64px 0 0;
+}
+
+.contact-text{
+  color: black;
+}
+
+.footer-section{
+  color: black;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+  /* This is correct, no changes needed here */
+  background: white;
+  color: #333; /* Using the main body text color */
+  padding: 64px 0 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #16a085; /* Kept the brand color for the logo */
+}
+
+/* CHANGE: Updated text color to be dark */
+.footer-description {
+  color: #666; /* Changed from a light color to dark grey */
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.footer-badge {
+  background: #ff6b35;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #16a085; /* Kept the brand color for titles */
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* CHANGE: Updated link color to be dark */
+.footer-link {
+  color: #333; /* Changed from a light color to dark */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #16a085; /* Hover color is fine */
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items for better responsive layout */
+  gap: 10px;
+  color: #333; /* CHANGED: Set default text color for the item */
+}
+
+.contact-icon i {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+  color: white; /* Icon color inside the circle */
+}
+
+.contact-icon.contact-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #16a085, #3498db); /* Using brand gradient */
+  color: #fff;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* CHANGE: Ensured contact text is dark */
+.contact-text {
+  color: #333; /* Explicitly set to dark */
+}
+
+/* CHANGE: Updated bottom bar text color */
+.footer-bottom {
+  border-top: 1px solid #e0e0e0; /* Lighter border for white background */
+  padding: 32px 0;
+  text-align: center;
+  color: #666; /* Changed from light color to dark grey */
 }

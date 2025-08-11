@@ -1,10 +1,23 @@
 nav {
-  background-color: #333;
+  background-color: white;
   padding: 1rem;
 }
 
 nav a {
-  color: white;
+  color: #333;
   margin: 0 1rem;
   text-decoration: none;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px; 
+  margin-right: 1rem;
+}
+.navbar{
+  background-color: white;
+  color: white;
 }
