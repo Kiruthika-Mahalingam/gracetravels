@@ -367,17 +367,25 @@ const Contact: React.FC = () => {
           <div className="contact-card">
             <i className="fas fa-map-marker-alt icon"></i>
             <h3>Visit Us</h3>
-            <p>123 Hill Station Road<br />Ooty, Tamil Nadu 643001</p>
+            
+  <p>
+    86/92 Rajajinagar,<br />
+    Vannar Pet,<br />
+    Ooty. 643001
+  </p>
+
+
           </div>
           <div className="contact-card">
             <i className="fas fa-phone-alt icon"></i>
             <h3>Call Us</h3>
-            <p>+91 98765 43210<br />Mon-Sun, 8AM-8PM</p>
+            <p>+918610492700
+<br />Mon-Sun, 8AM-8PM</p>
           </div>
           <div className="contact-card">
             <i className="fas fa-envelope icon"></i>
             <h3>Email Us</h3>
-            <p>info@gracetravelers.com<br />bookings@gracetravelers.com</p>
+            <p> GTtravelsooty@gmail.com </p>
           </div>
         </div>
         <div className="social-links">

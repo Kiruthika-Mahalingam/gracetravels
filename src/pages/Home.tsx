@@ -306,15 +306,23 @@ const Home = () => {
         <div className="footer-contact">
           <div className="contact-item">
             <span className="contact-icon contact-circle"><i className="fas fa-envelope"></i></span>
-            <span className="contact-text">info@grace.com</span>
+            <span className="contact-text">GTtravelsooty@gmail.com </span>
           </div>
           <div className="contact-item">
             <span className="contact-icon contact-circle"><i className="fas fa-phone-alt"></i></span>
-            <span className="contact-text">+91 98765 43210</span>
+            <span className="contact-text">+918610492700
+</span>
           </div>
           <div className="contact-item">
             <span className="contact-icon contact-circle"><i className="fas fa-map-marker-alt"></i></span>
-            <span className="contact-text">Ooty, Tamil Nadu</span>
+            <span className="contact-text">
+  <p>
+    86/92 Rajajinagar,<br />
+    Vannar Pet,<br />
+    Ooty. 643001
+  </p>
+</span>
+
           </div>
         </div>
       </div>
